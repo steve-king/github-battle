@@ -22,7 +22,7 @@ module.exports = {
 	devtool: 'source-map',
 	devServer: {
 		stats: 'errors-only',
-	}
+	},
 	resolve: {
 		extensions: ['', '.js', '.jsx']
 	}
