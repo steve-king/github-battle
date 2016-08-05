@@ -1,6 +1,6 @@
 var React = require('react');
 var ConfirmBattle = require('../components/ConfirmBattle');
-var githubHelpers = require('../utils/github-helpers');
+var githubHelpers = require('../utils/githubHelpers');
 
 var ConfirmBattleContainer = React.createClass({
     contextTypes: {
@@ -33,7 +33,7 @@ var ConfirmBattleContainer = React.createClass({
         this.context.router.push({
             pathname: '/results',
             state: {
-                playerInfo: this.state.playersInfo
+                playersInfo: this.state.playersInfo
             }
         });
     },
