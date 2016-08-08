@@ -10,7 +10,7 @@ var Loading = require('./Loading');
 function StartOver(){
     return (
         <div className="col-sm-12" style={styles.space}>
-            <Link to='player/One'>
+            <Link to='/playerOne'>
                 <button type='button' className="btn btn-lg btn-danger">Start over</button>
             </Link>
         </div>
